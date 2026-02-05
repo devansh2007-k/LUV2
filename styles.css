@@ -35,18 +35,13 @@ body {
 }
 
 h1 {
-    font-family: 'poppins', cursive;
-    background: linear-gradient(45deg, #940333, #9c27b0, #673ab7, #3f51b5);
-    background-size: 300% 300%;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 2.8rem;
-    margin-bottom: 20px;
-    text-shadow: none;
-    animation: pulse 2s ease-in-out infinite, textGradient 4s ease infinite;
-    filter: drop-shadow(2px 2px 4px rgba(233, 30, 99, 0.3));
+  font-family: 'poppins', cursive;
+  color: white;
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px rgba(255,255,255,0.6);
 }
+
 
 p {
     background: linear-gradient(45deg, #ad1457, #880e4f, #6a1b9a, #4527a0);
